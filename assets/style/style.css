@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    /* background-color: slategray; */
+    /* background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%); */
+    /* background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%); */
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Raleway';
+    font-weight: 500;
+    /* font-family: 'Roboto'; */
+    /* font-family: 'Open Sans'; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.main-content {
+    background-color: ghostwhite;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    transform: translateY(50%)
+}
+
+
+.login-control {
+    padding: 15px;
+}
+
+.login-option, .register-option {
+    background-color: cadetblue;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.no-user-alert {
+    background-color: rgb(255, 83, 83);
+    color: white;
+}
+
+.options {
+    display: flex;
+    background-color: cadetblue;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    flex-direction: row;
+    text-align: center;
+}
+
+.btn-login-home, .btn-register-home, #btn-login, #btn-register, #logout-home {
+    height: 4rem;
+    width: 100% !important;
+    border-radius: 0;
+    color: white;
+}
+
+
+.btn-login-home:hover {
+    border-bottom-left-radius: 10px !important;
+    background-color: ghostwhite;
+    color: black;
+}
+
+.btn-register-home:hover {
+    border-bottom-right-radius: 10px !important;
+    background-color: ghostwhite;
+    color: black;
+}
+
+#btn-login:hover, #btn-register:hover, #logout-home:hover {
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    background-color: ghostwhite;
+    color: black;
+}
+
+.vert-div {
+    height: 70px;
+    width: 2.1px;
+    background-color: rgb(255, 255, 255)
+}
+
+.info-text, .register-info, .home-user-info {
+    padding: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 960px){
+    .main-content {
+        width: 85%;
+    }
+}
